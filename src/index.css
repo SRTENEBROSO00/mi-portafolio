@@ -1,0 +1,11 @@
+@import "tailwindcss";
+#root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: aliceblue;
+  width: 100vh;
+}
+
+::selection {
+  background-color: #e99802; /* Color de fondo de la selección */
+  color: #000000;
+}
