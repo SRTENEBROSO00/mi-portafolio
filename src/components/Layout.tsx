@@ -8,9 +8,9 @@ import Footer from './Footer'
 // Esto tienes que estudiarlo porque se te da muy mal
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="w-screen h-screen flex flex-col  bg-black">
+    <div className="w-screen h-full flex flex-col justify-between bg-black">
       <NavBar />
-      <main className="pt-16 border">{children}</main>
+      <main className="pt-10">{children}</main>
       <Footer  />
     </div>
   )

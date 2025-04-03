@@ -17,11 +17,11 @@ function NavBar() {
   return (
     
     // Barra de navegacion
-    <div className='border-gray-700 border rounded-2xl h-20 flex backdrop-blur-lg my-2 fixed w-full top-0 left-0 z-50'>
+    <div className='border-gray-700 rounded-xl h-16 flex backdrop-blur backdrop-brightness-50 border fixed w-full top-0 left-0 z-50'>
       <nav className='flex justify-around items-center w-full p-5'>
         {/* Logo */}
         <div>
-          <p className='text-orange-500 text-6xl font-bold'>Cris</p>
+          <p className='text-orange-500 text-4xl font-bold'>Cris</p>
         </div>
         <div className='flex'>
           {/* Nav */}
