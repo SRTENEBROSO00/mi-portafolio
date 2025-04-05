@@ -17,7 +17,7 @@ function NavBar() {
   return (
     
     // Barra de navegacion
-    <div className='border-gray-700 rounded-xl h-16 flex backdrop-blur backdrop-brightness-50 border fixed w-full top-0 left-0 z-50'>
+    <div className='border-gray-700 rounded-xl h-16 flex backdrop-blur backdrop-brightness-50 border fixed w-screen top-0 left-0 z-50'>
       <nav className='flex justify-around items-center w-full p-5'>
         {/* Logo */}
         <div>
