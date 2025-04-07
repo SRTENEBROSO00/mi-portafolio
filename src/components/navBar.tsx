@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Home, Code, Briefcase, User, Mail, Moon, Sun } from 'lucide-react'
+import { Home, Code, Briefcase, Mail, Moon, Sun } from 'lucide-react'
 import { Button, IconButton } from '@mui/material'
 
 function NavBar() {
@@ -8,16 +8,15 @@ function NavBar() {
 
 
   const navItems = [
-    { name: 'Inicio', incons: <Home className='h-5 w-5' />, href: '#portafolio_hero' },
-    { name: 'Proyectos', incons: <Briefcase className='h-5 w-5' />, href: '' },
-    { name: 'Habilidades', incons: <Code className='h-5 w-5' />, href: '#' },
-    { name: 'Sobre mí', incons: <User className='h-5 w-5' />, href: '#' },
-    { name: 'Contactame', incons: <Mail className='h-5 w-5' />, href: '#' }
+    { name: 'Inicio', incons: <Home className='h-5 w-5' />, href: '#hero' },
+    { name: 'Habilidades', incons: <Code className='h-5 w-5' />, href: '#skills' },
+    { name: 'Proyectos', incons: <Briefcase className='h-5 w-5' />, href: '#projects' },
+    { name: 'Contáctame', incons: <Mail className='h-5 w-5' />, href: '#contact' }
   ]
   return (
     
     // Barra de navegacion
-    <div className='border-gray-700 rounded-xl h-16 flex backdrop-blur backdrop-brightness-50 border fixed w-screen top-0 left-0 z-50'>
+    <div className='border-gray-700 rounded-xl h-16 flex backdrop-blur backdrop-brightness-50 border fixed w-full top-0 left-0 z-50 '>
       <nav className='flex justify-around items-center w-full p-5'>
         {/* Logo */}
         <div>
@@ -28,7 +27,7 @@ function NavBar() {
           {navItems.map((items, index) => (
             <a
               key={index}
-              href=""
+              href={items.href}
               className='m-4 text-gray-500 hover:text-orange-400 transition-colors'
             >
               {items.name}
@@ -46,7 +45,7 @@ function NavBar() {
               backgroundColor: '#F97316',
             }}
           >
-            Contratame
+            Contrátame
           </Button>
         </div>
       </nav>

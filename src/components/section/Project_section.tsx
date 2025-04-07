@@ -1,6 +1,5 @@
 import React from 'react'
-import { ArrowUpRight, ExternalLink, Github } from "lucide-react";
-import { Button } from "@mui/material";
+import { Github } from "lucide-react";
 import { Badge } from "@mui/material";
 import Image from "../../assets/doing.png"
 
@@ -26,9 +25,9 @@ function Project_section() {
     badge: ["React", "Tailwind", "Next.js", "VSCode"]
 
   }]
-  // const 
+
   return (
-    <div>
+    <div id='projects' data-aos="fade-up">
       <div className="bg-black text-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           {/* Header */}

@@ -1,22 +1,13 @@
 import React from 'react'
-import { Phone, LocateIcon, Mail, Send, Fullscreen } from "lucide-react";
+import { Phone, LocateIcon, Mail, Send } from "lucide-react";
 import { Button } from '@mui/material';
 
 
 function Contact_section() {
-  const selfInfo = [
-    {
-      email: "kristian@gmail.com",
-      phomNum: "(829) 246-2158",
-      location: "Ciudad de La Vega, Rep.Dom."
-
-    },
-
-  ]
   return (
-    <div>
+    <div id='contact' data-aos="fade-up">
       {/* content */}
-      <div className=' pt-11 '>
+      <div className=' pt-11 ' >
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16 ">
@@ -27,9 +18,10 @@ function Contact_section() {
           </div>
           {/* Main */}
           <div className='grid grid-cols-2 mx-auto'>
+
             {/* Informacion */}
-            <div className='border rounded-2xl border-white/10 h-96 w-96 inline-block p-5 '>
-              <h2 className='text-center text-xl text-orange-500'>Informacion de contacto</h2>
+            <div className='border rounded-2xl border-white/10 h-96 w-96 inline-block p-5'>
+              <h2 className='text-center text-xl text-orange-500'>Información de contacto</h2>
               <div className='pt-8'>
                 <div className='flex items-center  gap-5'>
                   <Mail className="h-5 w-5 text-orange-500 bg-orange-500/10 rounded-full " />

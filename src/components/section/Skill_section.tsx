@@ -17,7 +17,7 @@ function Skill_section() {
         },
     ]
     return (
-        <div>
+        <div id='skills' data-aos="fade-up">
             <section className="py-16 bg-black/50">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
@@ -27,16 +27,16 @@ function Skill_section() {
                             y eficientes.
                         </p>
                     </div>
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <div className="grid md:grid-cols-3 gap-8" data-aos="fade-up">
                         {skills.map((skillGroup, index) => (
                             <div
                                 key={index}
-                                className="bg-black/40 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:border-orange-500/50 transition-all hover:shadow-orange-500/10 hover:shadow-lg"
+                                className="bg-black/40 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:border-orange-500/50 transition-all hover:shadow-orange-500/10 hover:shadow-lg "
                             >
                                 <h3 className="text-xl font-bold mb-4 text-orange-500">{skillGroup.category}</h3>
-                                <ul className="space-y-3">
+                                <ul className="space-y-3 ">
                                     {skillGroup.items.map((skill, skillIndex) => (
-                                        <li key={skillIndex} className="flex items-center gap-2">
+                                        <li key={skillIndex} className="flex items-center gap-2"  >
                                             <CheckCircle className="h-5 w-5 text-orange-500" />
                                             <span>{skill}</span>
                                         </li>
