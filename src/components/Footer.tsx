@@ -12,13 +12,17 @@ function Footer() {
           </div>
           <div className='flex gap-4 '>
             <button >
-              <Github className='hover:text-orange-500 cursor-pointer' />
+              <a href="https://github.com/SRTENEBROSO00">
+                <Github className='hover:text-orange-500 cursor-pointer' />
+              </a>
             </button>
             <button>
               <Linkedin className='hover:text-orange-500 cursor-pointer' />
             </button>
             <button>
-              <Instagram className='hover:text-orange-500 cursor-pointer' />
+              <a href="https://www.instagram.com/dev_crist?igsh=NW1kZ2pxZzE1OG5h">
+                <Instagram className='hover:text-orange-500 cursor-pointer' />
+              </a>
             </button>
             <button>
               <Mail className='hover:text-orange-500 cursor-pointer' />

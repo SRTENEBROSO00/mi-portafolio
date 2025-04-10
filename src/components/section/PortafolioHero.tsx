@@ -26,12 +26,21 @@ function PortafolioHero() {
                 habilidades de manipular cosas.
               </p>
               <div className="flex flex-wrap gap-3">
-                <Button sx={{ backgroundColor: '#F97316', border: 'orange', color: 'white', '&:hover': { backgroundColor: 'white', 'color': 'orange' } }}>
-                  Contáctame
-                </Button>
-                <Button sx={{ backgroundColor: 'white', border: 'orange', color: 'orange', '&:hover': { backgroundColor: '#F97316', 'color': 'white' } }}>
-                  <Download className="mr-2 h-4 w-4" /> Descargar CV
-                </Button>
+                <a href="#contact" >
+                  <Button sx={{ backgroundColor: '#F97316', border: 'orange', color: 'white', '&:hover': { backgroundColor: 'white', 'color': 'orange' } }}>
+                    Contáctame
+                  </Button>
+                </a>
+
+                <a href="/documentos/CV_CristianCastro.pdf" download>
+                  <Button sx={{ backgroundColor: 'white', border: 'orange', color: 'orange', '&:hover': { backgroundColor: '#F97316', 'color': 'white' } }}>
+                    <Download className="mr-2 h-4 w-4" /> Descargar CV
+                  </Button>
+
+                </a>
+
+
+
               </div>
               <div className="flex items-center gap-4 pt-2">
                 <a href="#" className="text-muted-foreground hover:text-orange-500 transition-colors">

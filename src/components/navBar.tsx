@@ -4,7 +4,7 @@ import { Button, IconButton } from '@mui/material'
 
 function NavBar() {
   // Toggle Darkmode
-    const[toggleMode, setToggleMode] = useState(true)
+  const [toggleMode, setToggleMode] = useState(true)
 
 
   const navItems = [
@@ -14,13 +14,13 @@ function NavBar() {
     { name: 'Contáctame', incons: <Mail className='h-5 w-5' />, href: '#contact' }
   ]
   return (
-    
+
     // Barra de navegacion
     <div className='border-gray-700 rounded-xl h-16 flex backdrop-blur backdrop-brightness-50 border fixed w-full top-0 left-0 z-50 '>
       <nav className='flex justify-around items-center w-full p-5'>
         {/* Logo */}
         <div>
-          <p className='text-orange-500 text-4xl font-bold'>Cris</p>
+          <a href='#hero' className='text-orange-500 text-4xl font-bold'>Cris</a>
         </div>
         <div className='flex'>
           {/* Nav */}
@@ -35,18 +35,20 @@ function NavBar() {
           ))}
         </div>
         <div className='flex w-50 justify-between'>
-          <IconButton onClick={() => {setToggleMode(!toggleMode)}}>
-            {toggleMode ? (<Moon className='text-gray-500 ' />) : <Sun className='text-gray-500' />  } 
-            
+          <IconButton onClick={() => { setToggleMode(!toggleMode) }}>
+            {toggleMode ? (<Moon className='text-gray-500 ' />) : <Sun className='text-gray-500' />}
+
           </IconButton>
-          <Button
-            variant='contained'
-            sx={{
-              backgroundColor: '#F97316',
-            }}
-          >
-            Contrátame
-          </Button>
+          <a href="#contact">
+            <Button
+              variant='contained'
+              sx={{
+                backgroundColor: '#F97316',
+              }}
+            >
+              Contrátame
+            </Button>
+          </a>
         </div>
       </nav>
     </div>
