@@ -9,19 +9,19 @@ function Project_section() {
   const projectData = [{
     projectName: 'PTD-Asistencia',
     image: Image,
-    decription: "Cuando realice más proyectos los iré publicando en esta sección",
+    decription: "I'll add all my future new projects soon",
     badge: ["React", "Tailwind", "Next.js", "VSCode"]
   },
   {
-    projectName: 'No hay proyectos por el momento',
+    projectName: 'There is not projects yet',
     image: Image,
-    decription: "Cuando realice más proyectos los iré publicando en esta sección",
+    decription: "I'll add all my future new projects soon",
     badge: ["React", "Tailwind", "Next.js", "VSCode"]
   },
   {
-    projectName: 'No hay proyectos por el momento',
+    projectName: 'There is not projects yet',
     image: Image,
-    decription: "Cuando realice más proyectos los iré publicando en esta sección",
+    decription: "I'll add all my future new projects soon",
     badge: ["React", "Tailwind", "Next.js", "VSCode"]
 
   }]
@@ -32,9 +32,9 @@ function Project_section() {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Mis Proyectos</h2>
+            <h2 className="text-4xl font-bold mb-4">My projects</h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Una selección de los proyectos en los que trabajé, mostrando mis habilidades y experiencia.
+            A selection of the projects I've worked on, showcasing my skills and experience.
             </p>
           </div>
 
@@ -66,7 +66,7 @@ function Project_section() {
           </div>
           <div className='text-center m-4'>
             <Badge className='className="bg-orange-950/30 text-orange-500 border-orange-800 hover:bg-orange-950/50 m-2 text-sm p-1  border inline-block rounded-full px-3 '>
-              Pronto subiré proyectos
+              Projects soon
             </Badge>
 
           </div>

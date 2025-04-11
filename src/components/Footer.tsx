@@ -30,7 +30,7 @@ function Footer() {
           </div>
         </div>
         <div>
-          <p className='text-center pt-5 p-16 border-t border-t-gray-900'> &copy; 2025 Cristian Castro. Todos los derechos reservados  </p>
+          <p className='text-center pt-5 p-16 border-t border-t-gray-900'> &copy; 2025 Cristian Castro. All right reserved  </p>
         </div>
       </div>
     </div>

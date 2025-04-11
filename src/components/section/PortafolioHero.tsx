@@ -19,27 +19,24 @@ function PortafolioHero() {
                 Software Developer
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight">
-                Bienvenido, soy <span className="text-orange-500">Cristian Castro</span>
+               Welcome, I'm <span className="text-orange-500">Cristian Castro</span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-md">
-                Apasionado por aprender cosas nuevas. Mi área favorita es el frontend en el cual puedo destacar por mis
-                habilidades de manipular cosas.
+              Passionate about learning new things. My favorite area is the front-end, where I can excel with my manipulative skills.
               </p>
               <div className="flex flex-wrap gap-3">
                 <a href="#contact" >
                   <Button sx={{ backgroundColor: '#F97316', border: 'orange', color: 'white', '&:hover': { backgroundColor: 'white', 'color': 'orange' } }}>
-                    Contáctame
+                    Hire me
                   </Button>
                 </a>
 
                 <a href="/documentos/CV_CristianCastro.pdf" download>
                   <Button sx={{ backgroundColor: 'white', border: 'orange', color: 'orange', '&:hover': { backgroundColor: '#F97316', 'color': 'white' } }}>
-                    <Download className="mr-2 h-4 w-4" /> Descargar CV
+                    <Download className="mr-2 h-4 w-4" /> Download CV
                   </Button>
 
                 </a>
-
-
 
               </div>
               <div className="flex items-center gap-4 pt-2">
