@@ -1,7 +1,8 @@
 import React from 'react'
 import { Button } from '@mui/material'
-import { Github, Linkedin, Mail, Download } from 'lucide-react'
+import { Github, Linkedin, Download, Instagram } from 'lucide-react'
 import doingImg from '../../assets/doing.png'
+import CV_Cristian from '../../../public/CV_CristianCastro.pdf';
 
 function PortafolioHero() {
   return (
@@ -31,24 +32,25 @@ function PortafolioHero() {
                   </Button>
                 </a>
 
-                <a href="/documentos/CV_CristianCastro.pdf" download>
+                <a href="/documents/CV_CristianCastro.pdf" download=''>
                   <Button sx={{ backgroundColor: 'white', border: 'orange', color: 'orange', '&:hover': { backgroundColor: '#F97316', 'color': 'white' } }}>
                     <Download className="mr-2 h-4 w-4" /> Download CV
                   </Button>
 
-                </a>
+               </a>
 
               </div>
               <div className="flex items-center gap-4 pt-2">
-                <a href="#" className="text-muted-foreground hover:text-orange-500 transition-colors">
+              <a href="https://www.instagram.com/dev_crist?igsh=NW1kZ2pxZzE1OG5h" className="text-muted-foreground hover:text-orange-500 transition-colors">
+                  <Instagram className="h-5 w-5" />
+                </a>
+                <a href="https://github.com/SRTENEBROSO00" className="text-muted-foreground hover:text-orange-500 transition-colors">
                   <Github className="h-5 w-5" />
                 </a>
                 <a href="#" className="text-muted-foreground hover:text-orange-500 transition-colors">
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-muted-foreground hover:text-orange-500 transition-colors">
-                  <Mail className="h-5 w-5" />
-                </a>
+               
               </div>
             </div>
             <div>

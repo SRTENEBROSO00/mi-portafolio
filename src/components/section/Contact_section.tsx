@@ -27,7 +27,7 @@ function Contact_section() {
                   <Mail className="h-5 w-5 text-orange-500 bg-orange-500/10 rounded-full " />
                   <div>
                     <h3 className='text-gray-400 text-opacity-70'>Email</h3>
-                    <p>kristian@gmail.com</p>
+                    <p>castroangelescristian@gmail.com</p>
                   </div>
                 </div>
 
