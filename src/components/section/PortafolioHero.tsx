@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '@mui/material'
-import { Github, Linkedin, Download, Instagram } from 'lucide-react'
+import { Github, Linkedin, Download, Instagram, Mail } from 'lucide-react'
 import doingImg from '../../assets/doing.png'
 import CV_Cristian from '../../../public/CV_CristianCastro.pdf';
 
@@ -20,10 +20,10 @@ function PortafolioHero() {
                 Software Developer
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight">
-               Welcome, I'm <span className="text-orange-500">Cristian Castro</span>
+                Welcome, I'm <span className="text-orange-500">Cristian Castro</span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-md">
-              Passionate about learning new things. My favorite area is the front-end, where I can excel with my manipulative skills.
+                Passionate about learning new things. My favorite area is the front-end, where I can excel with my manipulative skills.
               </p>
               <div className="flex flex-wrap gap-3">
                 <a href="#contact" >
@@ -37,20 +37,21 @@ function PortafolioHero() {
                     <Download className="mr-2 h-4 w-4" /> Download CV
                   </Button>
 
-               </a>
+                </a>
 
               </div>
               <div className="flex items-center gap-4 pt-2">
-              <a href="https://www.instagram.com/dev_crist?igsh=NW1kZ2pxZzE1OG5h" className="text-muted-foreground hover:text-orange-500 transition-colors">
+                <a href="https://www.instagram.com/dev_crist?igsh=NW1kZ2pxZzE1OG5h" className="text-muted-foreground hover:text-orange-500 transition-colors">
                   <Instagram className="h-5 w-5" />
                 </a>
                 <a href="https://github.com/SRTENEBROSO00" className="text-muted-foreground hover:text-orange-500 transition-colors">
                   <Github className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-muted-foreground hover:text-orange-500 transition-colors">
-                  <Linkedin className="h-5 w-5" />
+
+                <a href="#contact">
+                  <Mail className='hover:text-orange-500 cursor-pointer' />
                 </a>
-               
+
               </div>
             </div>
             <div>
