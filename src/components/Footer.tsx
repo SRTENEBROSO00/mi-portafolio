@@ -1,9 +1,8 @@
-import React from 'react'
-import { Github, Linkedin, Instagram, Mail } from 'lucide-react'
+import { Github, Instagram, Mail } from 'lucide-react'
 
 function Footer() {
   return (
-    <div className='pt-10'>
+    <div className='pt-10 w-screen'>
       <div className=' border-t-gray-50/10 py-8 border-t border-white/10 flex flex-col justify-center '>
         <div className='flex justify-around items-center p-3'>
           <div>
@@ -12,13 +11,13 @@ function Footer() {
           </div>
           <div className='flex gap-4 '>
             <button >
-              <a href="https://github.com/SRTENEBROSO00">
+              <a href="https://github.com/SRTENEBROSO00" target='_blank'>
                 <Github className='hover:text-orange-500 cursor-pointer' />
               </a>
             </button>
             
             <button>
-              <a href="https://www.instagram.com/dev_crist?igsh=NW1kZ2pxZzE1OG5h">
+              <a href="https://www.instagram.com/dev_crist?igsh=NW1kZ2pxZzE1OG5h" target='_blank'>
                 <Instagram className='hover:text-orange-500 cursor-pointer' />
               </a>
             </button>

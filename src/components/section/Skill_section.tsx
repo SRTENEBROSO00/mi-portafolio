@@ -17,7 +17,7 @@ function Skill_section() {
         },
     ]
     return (
-        <div id='skills' data-aos="fade-up">
+        <div id='skills' data-aos="fade-up" className=' w-screen'>
             <section className="py-16 bg-black/50">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12" data-aos="fade-up">

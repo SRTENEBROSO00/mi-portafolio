@@ -6,7 +6,7 @@ import CV_Cristian from '../../../public/CV_CristianCastro.pdf';
 
 function PortafolioHero() {
   return (
-    <div id='hero'>
+    <div id='hero' className=' w-screen'>
       {/* El Apartado donde me presento */}
       <div className="relative overflow-hidden" data-aos="zoom-in">
         {/* Fondo con gradiente y efecto */}
@@ -41,10 +41,10 @@ function PortafolioHero() {
 
               </div>
               <div className="flex items-center gap-4 pt-2">
-                <a href="https://www.instagram.com/dev_crist?igsh=NW1kZ2pxZzE1OG5h" className="text-muted-foreground hover:text-orange-500 transition-colors">
+                <a href="https://www.instagram.com/dev_crist?igsh=NW1kZ2pxZzE1OG5h" target='_blank' className="text-muted-foreground hover:text-orange-500 transition-colors">
                   <Instagram className="h-5 w-5" />
                 </a>
-                <a href="https://github.com/SRTENEBROSO00" className="text-muted-foreground hover:text-orange-500 transition-colors">
+                <a href="https://github.com/SRTENEBROSO00" target='_blank' className="text-muted-foreground hover:text-orange-500 transition-colors">
                   <Github className="h-5 w-5" />
                 </a>
 

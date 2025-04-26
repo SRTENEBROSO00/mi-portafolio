@@ -29,13 +29,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
 
   return (
-    <div className=" min-h-screen flex flex-col justify-between bg-black xl:w-screen sm:w-full  overflow-x-hidden ">
+    <div className=" flex flex-col justify-between bg-black w-screen overflow-x-hidden">
       {showSplash ? (
         <LoadPage />
       ) : (
         <>
           <NavBar />
-          <main className="pt-10 w-full ">{children}</main>
+          <main className="pt-10 w-screen lg:w-full ">{children}</main>
           <Footer />
         </>
 

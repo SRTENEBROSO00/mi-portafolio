@@ -28,7 +28,7 @@ function Project_section() {
   }]
 
   return (
-    <div id='projects' data-aos="fade-up">
+    <div id='projects' data-aos="fade-up" className=' w-screen'>
       <div className="bg-black text-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
@@ -43,9 +43,9 @@ function Project_section() {
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8  '>
             {/* Render */}
             {projectData.map((projectGroup, index) => (
-              <div key={index} className=' relative group h-96 flex flex-col justify-around items-start bg-black/40 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden hover:border-orange-500/50 transition-all hover:shadow-orange-500/10 hover:shadow-lg p-5 '>
-                <div >
-                  <div className=' absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 h-60 transition-opacity flex items-end justify-between p-4'>
+              <div key={index} className=' group h-96 flex flex-col justify-around items-start bg-black/40 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden hover:border-orange-500/50 transition-all hover:shadow-orange-500/10 hover:shadow-lg p-5 '>
+                <div className='relative'>
+                  <div className=' absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 h-full transition-opacity flex items-end justify-between p-4'>
                     <a href="">
                       <Github className='hover:text-white hover:bg-amber-700 hover:rounded-2xl pointer-events-auto w-20 h-6'  />
                     </a>

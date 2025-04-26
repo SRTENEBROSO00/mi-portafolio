@@ -1,7 +1,7 @@
 import { useRef, FormEvent, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import { Phone, LocateIcon, Mail, Send } from "lucide-react";
-import { Button, FormControl } from '@mui/material';
+import { Button } from '@mui/material';
 
 
 function Contact_section() {
@@ -36,7 +36,7 @@ function Contact_section() {
 
 
   return (
-    <div id='contact' data-aos="fade-up">
+    <div id='contact' data-aos="fade-up" className='w-screen'>
       {/* content */}
       <div className=' pt-11 ' >
         <div className="max-w-6xl mx-auto">
@@ -47,8 +47,10 @@ function Contact_section() {
               Do you have a project in mind or want to discuss job opportunities? I'm available!
             </p>
           </div>
+
+
           {/* Main */}
-          <div className='grid grid-cols-2 mx-auto'>
+          <div className='lg:grid grid-cols-2 mx-auto'>
 
             {/* Informacion */}
             <div className='border rounded-2xl border-white/10 h-96 w-96 inline-block p-5'>
