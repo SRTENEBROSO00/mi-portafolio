@@ -110,7 +110,7 @@ function Contact_section() {
                   }}>Send <Send className='h-5 w-5 m-2' /> </Button>
               </form>
               {/* Status message */}
-              {setStatusMessage && (
+              {statusMessage && (
                 <p className="text-sm mt-2">{statusMessage}</p>
               )}
 
