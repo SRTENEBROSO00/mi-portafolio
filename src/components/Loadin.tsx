@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Load_page = () => {
     return (

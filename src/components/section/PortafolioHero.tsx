@@ -1,8 +1,7 @@
-import React from 'react'
 import { Button } from '@mui/material'
-import { Github, Linkedin, Download, Instagram, Mail } from 'lucide-react'
+import { Github, Download, Instagram, Mail } from 'lucide-react'
 import doingImg from '../../assets/doing.png'
-import CV_Cristian from '../../../public/CV_CristianCastro.pdf';
+
 
 function PortafolioHero() {
   return (

@@ -3,10 +3,7 @@ import { Home, Code, Briefcase, Mail, Menu } from 'lucide-react'
 import { Button } from '@mui/material'
 
 function NavBar() {
-  // Toggle Darkmode
-  // const [toggleMode, setToggleMode] = useState(true)
   const [isModalOpen, setIsModalOpen] = useState(false)
-
 
   const navItems = [
     { name: 'Home', incons: <Home className='h-5 w-5' />, href: '#hero' },
@@ -136,10 +133,6 @@ function NavBar() {
           ))}
         </div>
         <div className=' flex w-50 justify-between'>
-          {/* <IconButton onClick={() => { setToggleMode(!toggleMode) }}>
-            {toggleMode ? (<Moon className='text-gray-500 ' />) : <Sun className='text-gray-500' />}
-
-          </IconButton> */}
           <a href="#contact">
             <Button
               variant='contained'
