@@ -8,10 +8,10 @@ function NavBar() {
 
 
   const navItems = [
-    { name: 'Inicio', incons: <Home className='h-5 w-5' />, href: '#hero' },
-    { name: 'Habilidades', incons: <Code className='h-5 w-5' />, href: '#skills' },
-    { name: 'Proyectos', incons: <Briefcase className='h-5 w-5' />, href: '#projects' },
-    { name: 'Contáctame', incons: <Mail className='h-5 w-5' />, href: '#contact' }
+    { name: 'Home', incons: <Home className='h-5 w-5' />, href: '#hero' },
+    { name: 'Skills', incons: <Code className='h-5 w-5' />, href: '#skills' },
+    { name: 'Projects', incons: <Briefcase className='h-5 w-5' />, href: '#projects' },
+    { name: 'Contact', incons: <Mail className='h-5 w-5' />, href: '#contact' }
   ]
   return (
 
@@ -46,7 +46,7 @@ function NavBar() {
                 backgroundColor: '#F97316',
               }}
             >
-              Contrátame
+              Hire me
             </Button>
           </a>
         </div>

@@ -16,21 +16,21 @@ function Footer() {
                 <Github className='hover:text-orange-500 cursor-pointer' />
               </a>
             </button>
-            <button>
-              <Linkedin className='hover:text-orange-500 cursor-pointer' />
-            </button>
+            
             <button>
               <a href="https://www.instagram.com/dev_crist?igsh=NW1kZ2pxZzE1OG5h">
                 <Instagram className='hover:text-orange-500 cursor-pointer' />
               </a>
             </button>
             <button>
+              <a href="#contact">
               <Mail className='hover:text-orange-500 cursor-pointer' />
+              </a>
             </button>
           </div>
         </div>
         <div>
-          <p className='text-center pt-5 p-16 border-t border-t-gray-900'> &copy; 2025 Cristian Castro. Todos los derechos reservados  </p>
+          <p className='text-center pt-5 p-16 border-t border-t-gray-900'> &copy; 2025 Cristian Castro. All rights reserved  </p>
         </div>
       </div>
     </div>

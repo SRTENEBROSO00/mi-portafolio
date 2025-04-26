@@ -20,11 +20,10 @@ function Skill_section() {
         <div id='skills' data-aos="fade-up">
             <section className="py-16 bg-black/50">
                 <div className="container mx-auto px-4">
-                    <div className="text-center mb-12">
-                        <h2 className="text-3xl font-bold mb-4">Mis Habilidades</h2>
+                    <div className="text-center mb-12" data-aos="fade-up">
+                        <h2 className="text-3xl font-bold mb-4">My skills</h2>
                         <p className="text-muted-foreground max-w-2xl mx-auto">
-                            Estas son las tecnologías y herramientas con las que trabajo diariamente para crear soluciones web modernas
-                            y eficientes.
+                        These are the technologies and tools I work with daily to create modern and efficient web solutions.
                         </p>
                     </div>
                     <div className="grid md:grid-cols-3 gap-8" data-aos="fade-up">
@@ -47,7 +46,7 @@ function Skill_section() {
                     </div>
                     <div className='mt-12 text-center'>
                         <div className='inline-block px-4 py-2 rounded-full bg-orange-500/10 text-orange-500 font-medium'>
-                            Siempre aprendiendo nuevas tecnologías
+                            Always learning new things
                         </div>
                     </div>
                 </div>
