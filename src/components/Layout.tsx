@@ -7,8 +7,6 @@ import { useState } from 'react';
 import LoadPage from './Loadin'
 
 
-// 
-
 // Esto tienes que estudiarlo porque se te da muy mal
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [showSplash, setShowSplash] = useState(true);
@@ -16,7 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     // Oculta el splash después de 3 segundos
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 3000);
+    }, 1500);
 
     return () => clearTimeout(timer); // Limpia el temporizador al desmontar
   }, []);

@@ -94,13 +94,14 @@ function NavBar() {
                   Sobre mí
                 </a>
                 <a
+                  onClick={() => setIsModalOpen(false)}
                   href="#contact"
                   className="flex items-center gap-3 py-2 text-muted-foreground hover:text-orange-500 transition-colors"
                 >
                   <Mail className="h-5 w-5" />
                   Contacto
                 </a>
-                <a href="#contact">
+                <a href="#contact" onClick={() => setIsModalOpen(false)}>
                   <button
                     className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 bg-orange-500 hover:bg-orange-600 mt-4"
                   >

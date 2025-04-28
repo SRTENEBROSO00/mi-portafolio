@@ -36,7 +36,7 @@ function Contact_section() {
 
 
   return (
-    <div id='contact' data-aos="fade-up" className='w-screen'>
+    <div id='contact' data-aos="fade-up" className='w-screen '>
       {/* content */}
       <div className=' pt-11 ' >
         <div className="max-w-6xl mx-auto">
@@ -50,10 +50,10 @@ function Contact_section() {
 
 
           {/* Main */}
-          <div className='lg:grid grid-cols-2 mx-auto'>
+          <div className='lg:grid lg:grid-cols-2 flex flex-col items-center mx-auto'>
 
             {/* Informacion */}
-            <div className='border rounded-2xl border-white/10 h-96 w-96 inline-block p-5'>
+            <div className='border rounded-2xl border-white/10 h-96 w-96 inline-block p-5 m-2 '>
               <h2 className='text-center text-xl text-orange-500'>My information</h2>
               <div className='pt-8'>
                 <div className='flex items-center  gap-5'>
@@ -81,9 +81,10 @@ function Contact_section() {
                 </div>
               </div>
             </div>
+
+
             {/* Formulario de contacto */}
             <div className='border rounded-2xl border-white/10 p-5'>
-
               <form ref={form} onSubmit={sendEmail} action=''>
                 <div className='grid grid-cols-2 gap-4'>
                   <div className='flex flex-col'>
