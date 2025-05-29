@@ -1,7 +1,7 @@
 import { Github } from "lucide-react";
 import { Badge } from "@mui/material";
 
-import Image from "../../assets//noImageYet.png"
+import Image from "../../assets//noImageYet.webp"
 
 
 function Project_section() {
