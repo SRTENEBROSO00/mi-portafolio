@@ -1,28 +1,28 @@
 import { Github } from "lucide-react";
 import { Badge } from "@mui/material";
 
-import Image from "../../assets//istockphoto-1396814518-612x612.jpg"
+import Image from "../../assets//noImageYet.png"
 
 
 function Project_section() {
   // Los datos dentro de los proyectos
   const projectData = [{
-    projectName: 'PTD-Asistencia',
+    projectName: 'There is not projects yet',
     image: Image,
-    decription: "I'll add all my future new projects soon",
-    badge: ["React", "Tailwind", "Next.js", "VSCode"]
+    decription: "I'll add all my future new projects soon"
+    // badge: ["React", "Tailwind", "Next.js", "VSCode"]
   },
   {
     projectName: 'There is not projects yet',
     image: Image,
-    decription: "I'll add all my future new projects soon",
-    badge: ["React", "Tailwind", "Next.js", "VSCode"]
+    decription: "I'll add all my future new projects soon"
+    // badge: ["React", "Tailwind", "Next.js", "VSCode"]
   },
   {
     projectName: 'There is not projects yet',
     image: Image,
-    decription: "I'll add all my future new projects soon",
-    badge: ["React", "Tailwind", "Next.js", "VSCode"]
+    decription: "I'll add all my future new projects soon"
+    // badge: ["React", "Tailwind", "Next.js", "VSCode"]
 
   }]
 
@@ -58,11 +58,11 @@ function Project_section() {
                     <p className='text-gray-400 text-opacity-70'> {projectGroup.decription}</p>
                   </div>
                   <div className=''>
-                    {projectGroup.badge.map((filtrar, filterIndex) => (
+                    {/* {projectGroup.badge.map((filtrar, filterIndex) => (
                       <Badge key={filterIndex} className='className="bg-orange-950/30 text-orange-500 border-orange-800 hover:bg-orange-950/50 m-2 text-xs p-1 border inline-block rounded-full px-3 '>
                         {filtrar}
                       </Badge>
-                    ))}
+                    ))} */}
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ function Project_section() {
             ))}
           </div>
           <div className='text-center m-4'>
-            <Badge className='className="bg-orange-950/30 text-orange-500 border-orange-800 hover:bg-orange-950/50 m-2 text-sm p-1  border inline-block rounded-full px-3 '>
+            <Badge className='className="bg-orange-950/30 text-orange-500 border-orange-800 cursor-pointer hover:bg-orange-950/50 m-2 text-sm p-1  border inline-block rounded-full px-3 '>
               Projects soon
             </Badge>
 
