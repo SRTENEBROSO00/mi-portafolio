@@ -1,5 +1,5 @@
 import { Button } from '@mui/material'
-import { Github, Download, Instagram, Mail } from 'lucide-react'
+import { Github, Download, Instagram, Mail, Linkedin } from 'lucide-react'
 import doingImg from '../../assets/doing.png'
 
 
@@ -45,6 +45,9 @@ function PortafolioHero() {
                 </a>
                 <a href="https://github.com/SRTENEBROSO00" target='_blank' className="text-muted-foreground hover:text-orange-500 transition-colors">
                   <Github className="h-5 w-5" />
+                </a>
+                <a href="https://www.linkedin.com/in/cristian-castro-%C3%A1ngeles-965000363/" target='_blank' className="text-muted-foreground hover:text-orange-500 transition-colors">
+                  <Linkedin className="h-5 w-5" />
                 </a>
 
                 <a href="#contact">

@@ -68,7 +68,7 @@ function Contact_section() {
                   <Phone className="h-5 w-5 text-orange-500 bg-orange-500/10 rounded " />
                   <div>
                     <h3 className='text-gray-400 text-opacity-70'>Phone</h3>
-                    <p>(829) 246-2158</p>
+                    <p>(829) 246-2159</p>
                   </div>
                 </div>
 

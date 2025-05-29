@@ -1,4 +1,4 @@
-import { Github, Instagram, Mail } from 'lucide-react'
+import { Github, Instagram, Linkedin, Mail } from 'lucide-react'
 
 function Footer() {
   return (
@@ -24,6 +24,11 @@ function Footer() {
             <button>
               <a href="#contact">
               <Mail className='hover:text-orange-500 cursor-pointer' />
+              </a>
+            </button>
+            <button>
+              <a href="https://www.linkedin.com/in/cristian-castro-%C3%A1ngeles-965000363/">
+              <Linkedin className='hover:text-orange-500 cursor-pointer' />
               </a>
             </button>
           </div>
