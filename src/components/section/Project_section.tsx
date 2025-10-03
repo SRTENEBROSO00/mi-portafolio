@@ -1,43 +1,8 @@
 import { Github, SquareArrowOutUpRight } from "lucide-react";
 import { Badge } from "@mui/material";
-
-import Image from "../../assets//noImageYet.webp"
-import Mikens from "../../../public/systemImagenMikens.png"
-
-
+import { projectData } from "./variables/projectData";
 
 function Project_section() {
-  // Los datos dentro de los proyectos
-  const projectData = [{
-    projectName: 'Mikens',
-    image: Mikens,
-    status: true,
-    github: "https://github.com/jeremyda173/sistem-fact-2",
-    linkProject: "https://sistem-fact-2.vercel.app/",
-    decription: "System to build systems",
-    badge: ["React", "Chakra", "Next.js", "VSCode"]
-  },
-  {
-    projectName: 'Building one...',
-    image: Image,
-    status: false,
-    github: "",
-    linkProject: "",
-    decription: "I'll add all my future new projects soon",
-    badge: []
-  },
-  {
-    projectName: 'Building one...',
-    image: Image,
-    status: false,
-    github: "",
-    linkProject: "",
-    decription: "I'll add all my future new projects soon",
-    badge: []
-
-  }
-  ]
-
   return (
     <div id='projects' data-aos="fade-up" className=' w-screen'>
       <div className="bg-black text-white py-16 px-4">
@@ -56,15 +21,15 @@ function Project_section() {
             {projectData.map((projectGroup, index) => (
               <div key={index} className=' group h-96 flex flex-col justify-around items-start bg-black/40 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden hover:border-orange-500/50 transition-all hover:shadow-orange-500/10 hover:shadow-lg p-5 hover:animate-pulse cursor-pointer'>
                 <div className='relative w-full h-40 flex items-center justify-center overflow-hidden rounded-lg bg-gray-900'>
-                  <div className='absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 h-full transition-opacity flex items-end justify-between p-4'>
+                  <div className='absolute inset-0 bg-gradient-to-t from-black/80 to-transparent sm:opacity-0 group-hover:opacity-100 h-full transition-opacity flex items-end justify-between p-4'>
                     {projectGroup.github && (
                       <a href={projectGroup.github} target="_blank" rel="noopener noreferrer">
-                        <Github className='hover:text-white hover:bg-amber-700 hover:rounded-1xl pointer-events-auto w-8 h-8' />
+                        <Github className='hover:text-white hover:bg-amber-700 hover:rounded-lg pointer-events-auto w-8 h-8' />
                       </a>
                     )}
                     {projectGroup.linkProject && (
                        <a href={projectGroup.linkProject} target="_blank" rel="noopener noreferrer">
-                        <SquareArrowOutUpRight className='hover:text-white hover:bg-amber-700 hover:rounded-1xl pointer-events-auto w-8 h-8' />
+                        <SquareArrowOutUpRight className='hover:text-white hover:bg-amber-700 hover:rounded-lg pointer-events-auto w-8 h-8' />
                       </a>
                     )}
                   </div>
